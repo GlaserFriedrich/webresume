@@ -1,0 +1,23 @@
+.header {
+  font-family: myfont;
+  color: beige;
+  font-weight: bolder;
+  font-size: 70px;
+  padding: 5px;
+  text-align: center;
+}
+.text{
+  font-family: myfont;
+  color: aquamarine;
+}
+
+@font-face{
+  font-family: myfont;
+  src: url(boo.ttf);
+}
+
+body{
+  background-color: rgb(41, 38, 38);
+  text-align: center;
+
+}
