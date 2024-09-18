@@ -21,3 +21,21 @@ body{
   text-align: center;
 
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  border-color: green ;
+  border-width: 3px;
+  justify-content: space-evenly ;
+}
+.grid-child{
+  background-color: rgb(6, 8, 8);
+  border-width:2px;
+  border-style:solid;
+  border-color:rgb(112, 24, 24);
+  border-radius: 4%;
+  width: 20%;
+  
+}
