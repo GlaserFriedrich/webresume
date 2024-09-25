@@ -28,7 +28,7 @@ body{
   column-gap: 20px;
   border-color: green ;
   border-width: 3px;
-  justify-content: space-evenly ;
+  -ms-layout-grid-line: auto;
 }
 .grid-child{
   background-color: rgb(6, 8, 8);
@@ -36,6 +36,6 @@ body{
   border-style:solid;
   border-color:rgb(112, 24, 24);
   border-radius: 4%;
-  width: 20%;
+  max-width: 200px;
   
 }
