@@ -1,14 +1,53 @@
 .header {
   font-family: myfont;
-  color: beige;
-  font-weight: bolder;
-  font-size: 70px;
-  padding: 5px;
+  color: rgb(173, 173, 51);
+  margin-top: 5000px;
+  font-size: 40px;
   text-align: center;
+  margin-top: 0px;
+}
+
+.nav{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.vorstellung{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-text{
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .text{
   font-family: myfont;
   color: aquamarine;
+}
+ /* unvisited link */
+ a:link {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+} 
+
+ul{
+  list-style-type: none;
 }
 
 @font-face{
@@ -19,7 +58,6 @@
 body{
   background-color: rgb(41, 38, 38);
   text-align: center;
-
 }
 
 .grid-container{
@@ -37,5 +75,4 @@ body{
   border-color:rgb(112, 24, 24);
   border-radius: 4%;
   max-width: 200px;
-  
 }
